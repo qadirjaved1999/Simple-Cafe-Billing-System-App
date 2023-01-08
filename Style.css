@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+#clock {
+  font-family: "Share Tech Mono", monospace;
+  color: red;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  text-shadow: 2px 2px 5px rgb(26, 228, 53), 2px 2px 5px rgba(10, 230, 65, 65);
+}
+.time {
+  letter-spacing: 0.02em;
+  font-size: 20px;
+}
+.date {
+  letter-spacing: 0.1em;
+  font-size: 10px;
+}
+.text {
+  font-size: 10px;
+}
+
+.list {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  right: 0;
+  float: right;
+  margin-right: 190px;
+}
+
+.container {
+  position: relative;
+}
+.text-style {
+  text-shadow: 2px 2px 5px red;
+}
+.rate {
+  text-shadow: 2px 2px 5px rebeccapurple;
+}
+.item {
+  text-shadow: 2px 2px 5px yellow;
+}
+.price {
+  text-shadow: 2px 2px 5px green;
+}
+.input-style-1 {
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  background-color: yellow;
+}
+.input-style-2 {
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  background-color: white;
+}
+.input-style-3 {
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  background-color: rgb(196, 193, 193);
+}
+.input-style {
+  border-top: 4px inset black;
+  border-left: 4px inset black;
+  background-color: #12f812;
+}
+.btns {
+  width: 100%;
+  height: 130px;
+}
+#text {
+  height: 35px;
+  width: 190px;
+  background-color: rgb(250, 249, 249);
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-bottom: 2px solid rgb(36, 35, 35);
+  border-right: 2px solid rgb(77, 76, 76);
+}
+
+.effacted-button{
+  width: 50%;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.effacted-button:hover {background-color: red}
+
+.effacted-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
